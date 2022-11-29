@@ -54,7 +54,7 @@ Delete: http://localhost:8080/user/:userid/employee/:employeeId
 ```Javascript
 Patch: http://localhost:8080/user/:userid/employee/:employeeId
 ```
-<img src="https://i.ibb.co/cbGZdkD/update-req.png">
+<img src="https://i.ibb.co/CHhnLWp/update-req.png">
 <br/>
 <br/>
 
