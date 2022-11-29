@@ -30,8 +30,8 @@ userRouter.get("/:userid/employee", async(req,res)=>{
 })
 
 userRouter.delete("/:userid/employee/:employeeId", async(req, res) => {
-    const {userid} = req.params.userid
-    const {EmployeeID} = req.params.employeeId
+    const userid = req.params.userid
+    const EmployeeID = req.params.employeeId
     const product = await EMPLOYEE.deleteOne({_id: EmployeeID, userid: userid})
                     .then(result => {
                         return res.status(201).send({message: "Deleted Successfully"})
