@@ -1,0 +1,16 @@
+Write an employee management API -
+Create, update, delete, read operations for employee Object (ID, Name, Date of Joining, Department, Created By User ID).
+
+User Object - Create a register and Login API for User Object. Only logged in User can create an Employee.
+
+Only the User which has created an employee can update or delete an Employee. 
+
+Example - Lets say you have created 5 Users in the Mongo DB database, U1, U2, U3, U4 , U5. 
+The employee created by U2 can only be updated or deleted by U2
+Lets say U2 created an employee E55 so U3,U4, U1, or U5 cannot update or delete the employee object E55 only U2 can. 
+ 
+
+Use Mongo DB + Nodejs to create the API.
+
+You have to just create the API, No fronend required.
+
